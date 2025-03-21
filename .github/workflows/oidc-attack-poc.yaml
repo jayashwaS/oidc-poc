@@ -22,5 +22,5 @@ jobs:
           role-to-assume: arn:aws:iam::767398052343:role/github-oidc-poc
           aws-region: us-east-1
 
-      - name: Caller Identity
+      - name: AWS Caller Identity
         run: aws sts get-caller-identity
